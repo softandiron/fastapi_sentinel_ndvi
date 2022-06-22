@@ -1,4 +1,7 @@
-uploads/archives/
-uploads/geoJsons/
-uploads/scenes/
-uploads/ndvis/
+#uploads/archives/
+#uploads/geoJsons/
+#uploads/scenes/
+#uploads/ndvis/
+__pycache__/
+database/__pycache__/
+utils/__pycache__/
