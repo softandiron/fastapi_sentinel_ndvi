@@ -1,3 +1,5 @@
+# https://scihub.copernicus.eu/dhus/#/home
+
 from sentinelsat import SentinelAPI, geojson_to_wkt, read_geojson
 import logging
 from datetime import datetime, timedelta
@@ -48,4 +50,6 @@ def download_sentinel_scene(file_path: str):
         zip_ref.extractall(config.scenes_folder)
         scene_name = zip_ref.namelist()[0]
         logger.debug('scene tile is ready')
+
+    return scene_name
 
