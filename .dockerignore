@@ -1,0 +1,7 @@
+database/__pycache__/
+utils/__pycache__/
+.git
+README.md
+uploads/geoJsons/
+uploads/scenes/
+uploads/ndvis/
